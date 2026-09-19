@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Menú de restaurantes y lugares gastronómicos de Cañas, Guanacaste."
+    >
+
+    <meta
+        name="author"
+        content="Guía Gastronómica de Cañas"
+    >
+
+    <meta name="theme-color" content="#B65339">
+
+    <title>
+        Menú | Guía Gastronómica de Cañas
+    </title>
+
+
+    <!-- =====================================================
+         FAVICON
+         ===================================================== -->
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="../img/favicon.png"
+    >
+
+
+    <!-- =====================================================
+         HOJA DE ESTILOS
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="../css/styles.css"
+    >
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+         ===================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+         ===================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="contenedor header-contenido">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="../html/index.html"
+                class="logo"
+                aria-label="Guía Gastronómica de Cañas - Inicio"
+            >
+
+                <img
+                    src="../img/logo.png"
+                    alt="Logo de Guía Gastronómica de Cañas"
+                    class="logo-imagen"
+                >
+
+                <span class="logo-texto">
+
+                    <strong>
+                        Guía Gastronómica
+                    </strong>
+
+                    <small>
+                        Cañas, Guanacaste
+                    </small>
+
+                </span>
+
+            </a>
+
+
+            <!-- MENÚ MÓVIL -->
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú de navegación"
+                aria-expanded="false"
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav
+                class="nav"
+                id="nav"
+                aria-label="Navegación principal"
+            >
+
+                <ul class="nav-lista">
+
+                    <li>
+
+                        <a
+                            href="../html/index.html"
+                            class="nav-link"
+                        >
+
+                            <i class="fa-solid fa-house"></i>
+
+                            Inicio
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="../html/lugares.html"
+                            class="nav-link activo"
+                        >
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            Lugares
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a
+                            href="../html/menu.html"
+                            class="nav-link"
+                        >
+
+                            <i class="fa-solid fa-book-open"></i>
+
+                            Menú
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a
+                            href="../html/galeria.html"
+                            class="nav-link"
+                        >
+
+                            <i class="fa-solid fa-camera"></i>
+
+                            Galería
+
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a
+                            href="../html/contacto.html"
+                            class="nav-link"
+                        >
+
+                            <i class="fa-regular fa-heart"></i>
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+
+    <!-- PRESENTACIÓN -->
+    <main>
+
+        <section class="lugares-intro">
+            <div class="contenedor">
+                <p class="etiqueta">CAÑAS, GUANACASTE</p>
+
+                <h1>Descubre los lugares de Cañas</h1>
+
+                <p>
+                    Explora diferentes restaurantes y establecimientos
+                    gastronómicos de Cañas, Guanacaste. Conoce su propuesta
+                    culinaria, ubicación y principales características.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- LUGARES -->
+        <section class="lugares-seccion">
+            <div class="contenedor">
+
+                <div class="lugares-grid">
+
+                    <!-- BASTOS CAÑAS -->
+                    <article class="lugar-card">
+
+                        <div class="lugar-imagen">
+                            <img src="../img/Bastos.avif"
+                                 alt="Fachada de Bastos Cañas">
+                        </div>
+
+                        <div class="lugar-info">
+
+                            <span class="lugar-tipo">
+                                Restaurante
+                            </span>
+
+                            <h2>Bastos Cañas</h2>
+
+                            <p class="lugar-descripcion">
+                                Restaurante ubicado en Cañas que ofrece una
+                                propuesta gastronómica para disfrutar de
+                                diferentes platillos en un ambiente agradable.
+                            </p>
+
+                            <div class="lugar-datos">
+                                <p>
+                                    <strong> Ubicación:</strong>
+                                    Cañas, Guanacaste
+                                </p>
+
+                                <p>
+                                    <strong> Especialidad:</strong>
+                                    Gastronomía variada
+                                </p>
+                            </div>
+
+                            <a href="../html/menu.html" class="btn-lugar">
+                                Ver información
+                            </a>
+
+                        </div>
+                    </article>
+
+
+                    <!-- HACIENDA LA PACÍFICA -->
+                    <article class="lugar-card">
+
+                        <div class="lugar-imagen">
+                            <img src="../img/LaPacifica.webp"
+                                 alt="Hacienda La Pacífica">
+                        </div>
+
+                        <div class="lugar-info">
+
+                            <span class="lugar-tipo">
+                                Restaurante
+                            </span>
+
+                            <h2>Hacienda La Pacífica</h2>
+
+                            <p class="lugar-descripcion">
+                                Establecimiento gastronómico localizado en
+                                Cañas, Guanacaste, que combina su propuesta
+                                culinaria con un entorno característico de la
+                                zona.
+                            </p>
+
+                            <div class="lugar-datos">
+                                <p>
+                                    <strong> Ubicación:</strong>
+                                    Cañas, Guanacaste
+                                </p>
+
+                                <p>
+                                    <strong> Especialidad:</strong>
+                                    Cocina variada
+                                </p>
+                            </div>
+
+                            <a href="../html/menu.html" class="btn-lugar">
+                                Ver información
+                            </a>
+
+                        </div>
+                    </article>
+
+
+                    <!-- CAÑAVERAL -->
+                    <article class="lugar-card">
+
+                        <div class="lugar-imagen">
+                            <img src="../img/Canaveral.jpg"
+                                 alt="Cañaveral Restaurante">
+                        </div>
+
+                        <div class="lugar-info">
+
+                            <span class="lugar-tipo">
+                                Restaurante
+                            </span>
+
+                            <h2>Cañaveral Restaurante</h2>
+
+                            <p class="lugar-descripcion">
+                                Restaurante de Cañas que forma parte de la
+                                oferta gastronómica local y ofrece diferentes
+                                opciones para disfrutar de la comida.
+                            </p>
+
+                            <div class="lugar-datos">
+                                <p>
+                                    <strong> Ubicación:</strong>
+                                    Cañas, Guanacaste
+                                </p>
+
+                                <p>
+                                    <strong> Especialidad:</strong>
+                                    Gastronomía variada
+                                </p>
+                            </div>
+
+                            <a href="../html/menu.html" class="btn-lugar">
+                                Ver información
+                            </a>
+
+                        </div>
+                    </article>
+
+                               <!-- COCOBOLO -->
+                    <article class="lugar-card">
+
+                        <div class="lugar-imagen">
+                            <img src="../img/Cocobolo.jpeg"
+                                 alt="Cocobolo">
+                        </div>
+
+                        <div class="lugar-info">
+
+                            <span class="lugar-tipo">
+                                Restaurante
+                            </span>
+
+                            <h2>Cocobolo Restaurante</h2>
+
+                            <p class="lugar-descripcion">
+                               Restaurante ubicado en Cañas que ofrece
+                            una propuesta gastronómica para disfrutar
+                            de diferentes opciones de comida y bebidas</p>
+
+                            </p>
+
+                            <div class="lugar-datos">
+                                <p>
+                                    <strong> Ubicación:</strong>
+                                    Cañas, Guanacaste
+                                </p>
+
+                                <p>
+                                    <strong> Especialidad:</strong>
+                                    Gastronomía variada
+                                </p>
+                            </div>
+
+                            <a href="../html/menu.html" class="btn-lugar">
+                                Ver información
+                            </a>
+
+                        </div>
+                    </article>
+                               <!-- MI TIERRA -->
+                    <article class="lugar-card">
+
+                        <div class="lugar-imagen">
+                            <img src="../img/Mitierra.webp"
+                                 alt="Mi tierra">
+                        </div>
+
+                        <div class="lugar-info">
+
+                            <span class="lugar-tipo">
+                                Restaurante
+                            </span>
+
+                            <h2>Restaurante Mi Tierra</h2>
+
+                            <p class="lugar-descripcion">
+                         Restaurante de comida tradicional ubicado
+                         en Cañas, con una propuesta inspirada en
+                         la gastronomía costarricense.
+
+                            </p>
+
+                            <div class="lugar-datos">
+                                <p>
+                                    <strong> Ubicación:</strong>
+                                    Cañas, Guanacaste
+                                </p>
+
+                                <p>
+                                    <strong> Especialidad:</strong>
+                                       Gastronomia costarricense
+                                </p>
+                            </div>
+
+                            <a href="../html/menu.html" class="btn-lugar">
+                                Ver información
+                            </a>
+
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+
+        <div class="contenedor footer-grid">
+
+
+            <!-- IDENTIDAD -->
+
+            <div class="footer-columna">
+
+
+                <a 
+                    href="../html/index.html" 
+                    class="logo logo-footer"
+                >
+
+                    <img 
+                        src="../img/logo.png"
+                        alt="Guía Gastronómica de Cañas"
+                        class="logo-imagen"
+                    >
+
+
+                    <span class="logo-texto">
+
+                        <strong>
+                            Guía Gastronómica
+                        </strong>
+
+                        <small>
+                            Cañas, Guanacaste
+                        </small>
+
+                    </span>
+
+                </a>
+
+
+                <p>
+
+                    Proyecto académico de Desarrollo Web dedicado
+                    a recopilar información gastronómica pública
+                    de establecimientos locales de Cañas.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ENLACES -->
+
+            <div class="footer-columna">
+
+
+                <h3>
+
+                    Explora
+
+                </h3>
+
+
+                <ul class="footer-enlaces">
+
+
+                    <li>
+                        <a href="../html/index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../html/lugares.html">
+                            Restaurantes
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../html/lugares.html">
+                            Lugares
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../html/menu.html">
+                            Menú
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../html/galeria.html">
+                            Galería
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../html/contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- UBICACIÓN -->
+
+            <div class="footer-columna">
+
+
+                <h3>
+
+                    Cañas, Guanacaste
+
+                </h3>
+
+
+                <p class="footer-ubicacion">
+
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+
+                    <span>
+
+                        Cañas, Guanacaste<br>
+                        Costa Rica
+
+                    </span>
+
+                </p>
+
+
+                <p class="footer-frase">
+
+                    Gastronomía · Cultura · Naturaleza
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- BARRA INFERIOR -->
+
+        <div class="footer-bottom">
+
+
+            <div class="contenedor footer-bottom-contenido">
+
+
+                <p>
+
+                    © 2026 Guía Gastronómica de Cañas.
+                    Proyecto académico.
+
+                </p>
+
+
+                <p>
+
+                    Información recopilada de fuentes públicas.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
